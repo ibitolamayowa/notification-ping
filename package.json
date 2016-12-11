@@ -1,0 +1,25 @@
+{
+  "name": "web-ping-to-slack",
+  "version": "1.0.0",
+  "description": "Script to check websites are up, and send a Slack message if not",
+  "main": "checker.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bravelocation/web-ping-to-slack.git"
+  },
+  "keywords": [
+    "web",
+    "ping",
+    "slack"
+  ],
+  "author": "John Pollard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bravelocation/web-ping-to-slack/issues"
+  },
+  "homepage": "https://github.com/bravelocation/web-ping-to-slack#readme",
+  "dependencies": {
+    "@slack/client": "^3.7.0",
+    "request": "^2.79.0"
+  }
+}
