@@ -9,7 +9,7 @@ var webhook = new IncomingWebhook(url);
 // Function which tries hitting the given url
 function checkWebsite(url, callback) {
     request(
-        {uri: url, method: "GET", timeout: 10000, followRedirect: false}, 
+        {uri: url, method: "GET", timeout: 30000, followRedirect: false}, 
         function(error, response) {
             var success = false;
             var errorCode = 999;
