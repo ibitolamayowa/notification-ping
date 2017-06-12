@@ -23,13 +23,13 @@ function checkWebsite(url, callback) {
             }
 
             console.log(url + ": " + success + " (" + errorCode + ")");
-            callback(url, success, errorCode);
+            callback(url, success, errorCode, error);
         });  
 };
 
 // Function that sends error message via Slack
-function sendErrorMessage(url, errorCode) {
-    var message = "Site down: " + url + " (" + errorCode + ")";
+function sendErrorMessage(url, errorCode, error) {
+    var message = "Site down: " + url + " (" + errorCode + "): " + error;
     webhook.send(message, function(err, res) {
         if (err) {
             console.log('Error:', err);
@@ -40,9 +40,9 @@ function sendErrorMessage(url, errorCode) {
 }
 
 settings.urls.forEach(function(url) {
-    checkWebsite(url, function(url, success, errorCode) {
+    checkWebsite(url, function(url, success, errorCode, error) {
         if (success == false) {
-            sendErrorMessage(url, errorCode);
+            sendErrorMessage(url, errorCode, error);
         }
     });
 });
