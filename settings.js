@@ -6,7 +6,8 @@ var settings = {
         "https://yeltz.co.uk", 
         "https://docs.mickledore.co.uk",
         "https://docs.awalkinthecountry.com",
-        "https://weantheweans.com"
+        "https://weantheweans.com",
+        "https://beebench.bravelocation.com"
     ]
 };
 

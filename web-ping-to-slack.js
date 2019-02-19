@@ -1,4 +1,3 @@
-var settings = require("./settings");
 var request = require("request");
 var IncomingWebhook = require('@slack/client').IncomingWebhook;
 
