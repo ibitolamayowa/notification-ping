@@ -7,7 +7,7 @@ var settings = {
         "https://docs.mickledore.co.uk",
         "https://docs.awalkinthecountry.com",
         "https://weantheweans.com",
-        "https://beebench.bravelocation.com"
+        "https://beebench.com"
     ]
 };
 
