@@ -5,7 +5,6 @@ var settings = {
         "https://yeltzland.net", 
         "https://yeltz.co.uk", 
         "https://docs.mickledore.co.uk",
-        "https://docs.awalkinthecountry.com",
         "https://weantheweans.com",
         "https://beebench.com"
     ]
