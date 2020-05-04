@@ -1,12 +1,11 @@
 var settings = {
     urls: [ 
-        "https://bravelocation.com", 
-        "https://josiemccoy.co.uk", 
-        "https://yeltzland.net", 
-        "https://yeltz.co.uk", 
         "https://docs.mickledore.co.uk",
         "https://weantheweans.com",
-        "https://beebench.com"
+        "https://yeltz.co.uk", 
+        "https://josiemccoy.co.uk", 
+        "https://bravelocation.com", 
+        "https://yeltzland.net", 
     ]
 };
 

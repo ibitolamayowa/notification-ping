@@ -20,6 +20,6 @@
   "homepage": "https://github.com/bravelocation/web-ping-to-slack#readme",
   "dependencies": {
     "@slack/client": "^3.7.0",
-    "request": "^2.79.0"
+    "request": "^2.88.2"
   }
 }
