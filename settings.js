@@ -6,6 +6,7 @@ var settings = {
         "https://josiemccoy.co.uk", 
         "https://bravelocation.com", 
         "https://yeltzland.net", 
+        "https://austinlaw.co.uk"
     ]
 };
 
